@@ -1,0 +1,22 @@
+Ingredientes
+miojo
+panela 
+agua 
+fogo
+
+colocar agua na panela
+acender o fogo
+colocar a panela para ferver a agua
+espere a agua ferver
+abra o pacote do miojo
+colocar miojo gentilmente na agua fervendo
+espere 3 min
+se (gostar com caldo){
+    adcionar tempero na panela diretamente
+}
+se não{
+    escorrer o miojo e adcionar no prato com o pó
+}
+desligar o fogo
+pegue um garfo
+coma

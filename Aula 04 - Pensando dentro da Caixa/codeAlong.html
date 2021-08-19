@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* importa a fonte usando o google fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+            /* seleciona tudo */
+            *{
+
+                font-family: 'Roboto', sans-serif;
+            }
+            /* seleciona todos os elementos h1 */
+            h1{
+                color:white;
+                background-color: blueviolet;
+            }
+            /* seleciona todo h2 que tenha a classe titulo */
+            h2.titulo{
+                color: red;
+            }
+            /* seleciona todo strong que está dentro de h1 */
+            h1 strong{
+                font-weight: 900;
+                background-color:yellow
+            }
+            /* seleciona o elemento de id teste que está dentro de um h1 */
+            h1 #teste{
+                color:rgb(35, 99, 62)
+            }
+            /* seleciona o elemento de id tchau + os elementos h2 */
+            #tchau, h2{
+                color:bisque;
+                /* box model */
+                box-sizing: border-box;
+                width: 100px;
+                height: 100px;
+                padding: 10px;
+                border: 2px solid black;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class= "titulo">Ola <strong id="teste">M</strong>undo</h1>
+        <h2> Subtitulo</h2>
+        <h2 class= "titulo">Ola <strong>Mundo</strong></h2>
+        <strong> Teste</strong>
+        <h1 class="titulo" id="tchau">tchau Mundo</h1>
+    </body>
+</html>
